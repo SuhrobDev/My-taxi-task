@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bottom_text_color">#BEBEBE</color>
+    <color name="def_button_color">#BEBEBE</color>
+    <color name="picked_bg">#00A43E</color>
+    <color name="notification_color">#EF2E2E</color>
+    <color name="white_1">#BEBEBE</color>
+    <color name="black_2">#2C2C2C</color>
+    <color name="statusBar">#FF000000</color>
+    <color name="white_alpha">#BEBEBE</color>
+    <color name="rocket">#1E1E1E</color>
+    <color name="start_gradient">#6C6C6C</color>
+    <color name="bell_color">#1E1E1E</color>
+    <color name="end_gradient">#BEBEBE</color>
+    <color name="icon_color">#1E1E1E</color>
+    <color name="menu_color">#2C2C2C</color>
+
+</resources>

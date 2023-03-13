@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="regular_10sp">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/regular_400</item>
+    </style>
+
+    <style name="medium_10sp">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/medium_500</item>
+    </style>
+
+    <style name="semi_bold_10sp">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/semi_bold_600</item>
+    </style>
+
+    <style name="bold_10sp">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/bold_700</item>
+    </style>
+
+    <style name="regular_12sp">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/regular_400</item>
+    </style>
+
+    <style name="medium_12sp">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/medium_500</item>
+    </style>
+
+    <style name="semi_bold_12sp">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/semi_bold_600</item>
+    </style>
+
+    <style name="bold_12sp">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/bold_700</item>
+    </style>
+
+    <style name="regular_14sp">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/regular_400</item>
+    </style>
+
+    <style name="medium_14sp">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/medium_500</item>
+    </style>
+
+    <style name="semi_bold_14sp">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/semi_bold_600</item>
+    </style>
+
+    <style name="bold_14sp">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/bold_700</item>
+    </style>
+
+    <style name="regular_16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/regular_400</item>
+    </style>
+
+    <style name="medium_16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/medium_500</item>
+    </style>
+
+    <style name="semi_bold_16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/semi_bold_600</item>
+    </style>
+
+    <style name="bold_16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/bold_700</item>
+    </style>
+
+    <style name="regular_18sp">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/regular_400</item>
+    </style>
+
+    <style name="medium_18sp">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/medium_500</item>
+    </style>
+
+    <style name="semi_bold_18sp">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/semi_bold_600</item>
+    </style>
+
+    <style name="semi_bold_24sp">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/semi_bold_600</item>
+    </style>
+
+    <style name="bold_18sp">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/bold_700</item>
+    </style>
+
+    <style name="tab_text">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/medium_500</item>
+    </style>
+
+
+
+    <style name="SheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <!--<item name="android:windowCloseOnTouchOutside">false</item>-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+</resources>
