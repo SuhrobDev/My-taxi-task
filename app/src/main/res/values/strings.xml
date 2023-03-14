@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyTaxiHackathon</string>
+    <string name="app_name">My taxi hackathon</string>
     <string name="mapbox_access_token">sk.eyJ1Ijoic3Vocm9iZGV2IiwiYSI6ImNsZXgycjZ6MTFmOXUzc3MwcG0wYWM5dzEifQ.YKDQ34_Ea03x-mlrTcTrfA</string>
 
     <string name="no_picture_in_picture_support">Your version does not support "Picture in Picture" mode"</string>
