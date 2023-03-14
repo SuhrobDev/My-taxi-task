@@ -15,5 +15,8 @@
     <color name="end_gradient">#BEBEBE</color>
     <color name="icon_color">#1E1E1E</color>
     <color name="menu_color">#2C2C2C</color>
+    <color name="additional">#272724</color>
+    <color name="drawer_bg">#1B1B19</color>
+    <color name="number_color">#7D7D7D</color>
 
 </resources>

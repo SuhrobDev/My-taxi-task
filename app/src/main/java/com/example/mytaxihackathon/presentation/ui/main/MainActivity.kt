@@ -11,7 +11,6 @@ import android.content.res.Configuration
 import android.graphics.Color
 import android.location.Address
 import android.location.Geocoder
-import android.location.Location
 import android.location.LocationManager
 import android.os.Build
 import android.os.Bundle
@@ -39,7 +38,6 @@ import com.mapbox.mapboxsdk.location.LocationComponentActivationOptions
 import com.mapbox.mapboxsdk.location.LocationComponentOptions
 import com.mapbox.mapboxsdk.location.modes.CameraMode
 import com.mapbox.mapboxsdk.location.modes.RenderMode
-import com.mapbox.mapboxsdk.maps.MapView
 import com.mapbox.mapboxsdk.maps.MapboxMap
 import com.mapbox.mapboxsdk.maps.OnMapReadyCallback
 import com.mapbox.mapboxsdk.maps.Style
@@ -50,29 +48,27 @@ import org.koin.androidx.viewmodel.ext.android.viewModel
 import java.io.IOException
 import java.util.*
 
-
 class MainActivity : AppCompatActivity(), OnMapReadyCallback, PermissionsListener {
 
     private lateinit var binding: ActivityMainBinding
 
     private val viewModel by viewModel<MainViewModel>()
 
-    private lateinit var mapView: MapView
     private var mapBox: MapboxMap? = null
 
     private var permissionsManager: PermissionsManager? = null
 
     private var lon = 0.0
-    private var myLocation: Location? = null
     private var lat = 0.0
 
     private var isFirst = false
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Mapbox.getInstance(this, getString(R.string.mapbox_access_token))
+        getInstanceMapbox()
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         binding.mapView.onCreate(savedInstanceState)
         binding.mapView.getMapAsync(this)
 
@@ -80,6 +76,10 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback, PermissionsListene
         observeList()
         clickTabs()
 
+    }
+
+    private fun getInstanceMapbox() {
+        Mapbox.getInstance(this, getString(R.string.mapbox_access_token))
     }
 
     private fun clickTabs() = binding.apply {

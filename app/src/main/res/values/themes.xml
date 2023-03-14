@@ -24,4 +24,8 @@
         <item name="spinBars">true</item>
         <item name="color">@android:color/black</item>
     </style>
+    <style name="Theme.MyTaxiHackathon.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 </resources>

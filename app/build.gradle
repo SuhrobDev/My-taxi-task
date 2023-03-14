@@ -2,7 +2,6 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
-//    id 'com.google.dagger.hilt.android'
 }
 
 android {
@@ -18,11 +17,6 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-//        def secureProps = new Properties()
-//        if (file("../secure.properties").exists()) {
-//            file("../secure.properties")?.withInputStream { secureProps.load(it) }
-//        }
-//        resValue "string", "access_token", (secureProps.getProperty("ACCESS_TOKEN") ?: "")
     }
 
     buildTypes {
@@ -68,10 +62,6 @@ dependencies {
     //lifecycle extensions
     implementation 'android.arch.lifecycle:extensions:1.1.1'
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1"
-
-    //navigation
-    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.3'
-    implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
 
     // -- Coroutines
     def coroutines_version = "1.2.1"

@@ -24,5 +24,10 @@
     <color name="menu_color">#2C2C2C</color>
     <color name="white_alpha">#CCFFFFFF</color>
     <color name="rocket">#FFFFFF</color>
+    <color name="drawer_icon_bg">#B2B2B2</color>
+    <color name="custom_color">#0B1029</color>
+    <color name="additional">#B2B2B2</color>
+    <color name="drawer_bg">#FFFFFFFF</color>
+    <color name="number_color">#7D7D7D</color>
 
 </resources>
